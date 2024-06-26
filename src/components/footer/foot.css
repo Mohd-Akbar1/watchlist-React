@@ -1,0 +1,45 @@
+.footer{
+    width: 100vw;
+    background-color: #0D092C;
+    color: white;
+    font-family: 'Mulish';
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    position: static;
+    bottom: 0px;
+    width: 100%;
+    
+}
+.footerhead{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    height: 25vh;
+}
+.infoWaltchList{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.watchlist{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262242;
+    margin: auto;   
+    border-radius: 0px 50px 50px 0px;
+    flex-direction: column;
+   
+}
+.copyright{
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+html,body{
+    height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Mulish';
+   background-color: #0F1222;
+   color: white;
+  flex-wrap: wrap;
+  height: 12vh;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.searchBar{
+    width: 30vw;
+    height: 5vh;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 4px;
+    padding-left: 10px;
+   
+    
+}
+.searchContainer{
+    width: 33vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 0);
+    
+}
+.magnigying{
+   
+   margin: 5px;
+    font-size: 30px;
+    color: black;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profileself{
+    font-size: 20px;
+}
+.mylist:hover{
+   
+    color: red;
+}

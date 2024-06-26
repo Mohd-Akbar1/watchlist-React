@@ -1,0 +1,73 @@
+.addformmainpage{
+  width: 100vw;
+  height: 120vh;
+  background-color: rgba(0, 0, 0, 0.447);
+  position: absolute;
+  z-index: 22;
+  top: 10px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(2px);
+}
+.releasedate{
+  display: flex;
+}
+.addForm {
+  position: relative;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 12vh;
+    z-index: 2;
+    width: 50vw;
+    
+  }
+  
+  
+  .addForm form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .addForm label {
+    margin-bottom: 10px;
+  }
+  
+  .addForm input,
+  .addForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .addForm button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .cancel{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .imageform{
+    margin: auto;
+    height: 22rem;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  .conatinerForm{
+    display: flex;
+    gap: 10px;
+  }

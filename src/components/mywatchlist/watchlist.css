@@ -1,0 +1,87 @@
+body{
+    height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish';
+}
+.watchlist1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 53vh;
+  }
+  
+  .movieItem {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .moviePoster {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
+  
+  .movieDetails {
+    padding: 20px;
+    flex: 1; /* This will make sure the details section expands to take up available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .movieDetails h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .movieDetails p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .movieActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .movieButton {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit {
+    font-size: 1.5rem;
+    color: grey;
+  }
+  
+  .delete {
+    font-size: 2rem;
+    color: grey;
+  }
+  .edit:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    color: black;
+  }
+  .delete:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+    color: black;
+  }

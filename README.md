@@ -1,4 +1,7 @@
 # React + Vite
+#watchList movie APP
+
+project is live on  https://ornate-crepe-352b78.netlify.app
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -8,4 +11,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-Peoject is live on  https://ornate-crepe-352b78.netlify.app/watchlist
+
